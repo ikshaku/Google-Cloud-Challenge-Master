@@ -1,0 +1,13 @@
+You are expected to create container images, store the images in a repository, and configure a Jenkins CI/CD pipeline to automate the build for the product.
+•	Create a Docker image and store the Dockerfile.
+•	Test the created Docker image.
+•	Push the Docker image into the Container Repository.
+•	Use the image to create and expose a deployment in Kubernetes
+•	Update the image and push a change to the deployment.
+•	Create a pipeline in Jenkins to deploy a new version of your image when the source code changes.
+
+Some Jooli Inc. standards you should follow:
+•	Create all resources in the us-east1 region and us-east1-b zone, unless otherwise directed.
+•	Use the project VPCs.
+•	Naming is normally team-resource, e.g. an instance could be named kraken-webserver1.
+•	Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share: unless directed, use n1-standard-1.
